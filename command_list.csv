@@ -1,0 +1,32 @@
+    1  git config
+    2  git config user.name
+    3  git congig user.email
+    4  git config user.email
+    5  git clone https://github.com/RomanQAjunior/HW_10.git
+    6  cd /c/git_hw/HW_10
+    7  touch text_ignore.txt
+    8  nano .gitignore
+    9  git status
+   10  git add all
+   11  git add -A
+   12  git status
+   13  git commit -m 'new file added'
+   14  touch main_test.txt
+   15  git add -A
+   16  git commit -m 'new file added'
+   17  git brunch develop
+   18  git branch develop
+   19  checkout
+   20  git checkout
+   21  git checkout develop
+   22  touch develop_test.txt
+   23  git add -A
+   24  git commit -m 'new file added'
+   25  nano develop_test.txt
+   26  git status
+   27  git add -A
+   28  git commit -m 'new file added'
+   29  git checkout main
+   30  git merge develop
+   31  git log
+   32  history > command_list.csv
